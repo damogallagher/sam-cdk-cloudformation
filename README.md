@@ -21,5 +21,6 @@ aws cloudformation deploy --stack-name cloudformation-lambda-api --template-file
 ## CDK
 cd cdk
 cdk init app --language typescript
+npm install
 npm run build
 cdk deploy --profile <<profile name>>

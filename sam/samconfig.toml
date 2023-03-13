@@ -38,13 +38,13 @@ warm_containers = "EAGER"
 [default.local_start_lambda.parameters]
 warm_containers = "EAGER"
 
-[aflac]
-[aflac.deploy]
-[aflac.deploy.parameters]
+[demo]
+[demo.deploy]
+[demo.deploy.parameters]
 stack_name = "sam-app"
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-y9b2i93w8l6g"
 s3_prefix = "sam-app"
 region = "eu-west-1"
-profile = "aflac"
+profile = "demo"
 capabilities = "CAPABILITY_IAM"
 image_repositories = []
