@@ -1,4 +1,4 @@
-# sam-cdk-cloudformation-terraform
+# sam-cdk-cloudformation
 
 ## SAM
 cd sam
